@@ -7,7 +7,7 @@ import cse332.datastructures.trees.BinarySearchTree;
  *
  * This is a AVLTree that saves key-value paires. The input data are sorted by keys
  * with a BST logic. The left and reight subtrees are forced to have a height difference
- * smaller than 1.
+ * smaller than 1...
  */
 
 public class AVLTree<K extends Comparable<? super K>, V> extends BinarySearchTree<K, V>  {
